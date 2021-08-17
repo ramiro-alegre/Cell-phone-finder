@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Arial";
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #C6F8AC;
+}
+body .conteiner-formulario {
+  margin: 100px auto auto auto;
+  width: 900px;
+  background-color: #73D85C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .conteiner-formulario .h1-formulario {
+  font-size: 50px;
+}
+body .conteiner-formulario .h2-conteiner {
+  font-size: 50px;
+}
+body .conteiner-formulario .opciones-celulares {
+  padding: 25px 0px;
+  width: 600px;
+}
+body .conteiner-formulario .opciones-celulares .primerosTres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+body .conteiner-formulario .opciones-celulares .segundosTres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .conteiner-formulario .opciones-celulares .conteiner-opciones {
+  display: flex;
+  flex-direction: column;
+}
+body .conteiner-formulario .opciones-celulares .conteiner-opciones .dropdownlist {
+  width: 150px;
+}
+body .conteiner-formulario .opciones {
+  max-width: 900px;
+}
+body .conteiner-formulario .opciones .opcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  padding: 10px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid #111;
+}
+
+@media (max-width: 1000px) {
+  body .conteiner-formulario {
+    width: 600px;
+  }
+  body .conteiner-formulario .h1-formulario {
+    font-size: 40px;
+  }
+  body .conteiner-formulario .h2-conteiner {
+    font-size: 40px;
+  }
+  body .conteiner-formulario .opciones {
+    width: 600px;
+  }
+  body .conteiner-formulario .opciones .opcion {
+    width: 600px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 650px) {
+  body .conteiner-formulario {
+    width: 500px;
+  }
+  body .conteiner-formulario .h1-formulario {
+    font-size: 35px;
+  }
+  body .conteiner-formulario .h2-conteiner {
+    font-size: 35px;
+  }
+  body .conteiner-formulario .opciones-celulares {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body .conteiner-formulario .opciones-celulares .primerosTres {
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  body .conteiner-formulario .opciones-celulares .segundosTres {
+    flex-direction: column;
+  }
+  body .conteiner-formulario .opciones-celulares .conteiner-opciones {
+    margin-top: 10px;
+  }
+  body .conteiner-formulario .opciones {
+    width: 500px;
+  }
+  body .conteiner-formulario .opciones .opcion {
+    width: 500px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 520px) {
+  body .conteiner-formulario {
+    width: 400px;
+  }
+  body .conteiner-formulario .opciones-celulares {
+    width: 400px;
+  }
+  body .conteiner-formulario .opciones-celulares .conteiner-opciones {
+    margin-top: 10px;
+  }
+  body .conteiner-formulario .opciones {
+    width: 400px;
+  }
+  body .conteiner-formulario .opciones .opcion {
+    width: 400px;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
